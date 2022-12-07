@@ -4,7 +4,6 @@ version: '3'
 services:
   strapi:
     container_name: strapi
-    build: .
     image: strapi
     env_file: .env
     environment:
@@ -27,5 +26,4 @@ services:
 
 networks:
   strapi:
-    name: Strapi
     driver: bridge
