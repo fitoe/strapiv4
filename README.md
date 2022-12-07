@@ -9,9 +9,9 @@ APP_KEYS=<yourkey>
 API_TOKEN_SALT=<your salt>
 ADMIN_JWT_SECRET=<your admin jwt secret>
 JWT_SECRET=<your jwt secret>
-DATABASE_CLIENT = 'sqlite'
-DATABASE_FILENAME = '.tmp/data.db'
-NODE_ENV = develop
+DATABASE_CLIENT='sqlite'
+DATABASE_FILENAME='.tmp/data.db'
+NODE_ENV=develop
 ```
 
 ## run
