@@ -23,3 +23,14 @@ docker-compose up -d
 🎉 enjoy!!
 
 http://localhost:1337/admin/
+
+
+## Build your docker image (optional)
+```bash
+# build docker image
+docker build . -t <dockername>
+# tag the image :docker tag nginx bill/nginx:4
+docker tag <dockername> <hubuser>/<repo-name>[:<tag>]
+# push to dockerhub
+docker push <hubuser>/<repo-name>[:<tag>]
+```
