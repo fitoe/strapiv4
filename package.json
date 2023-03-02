@@ -15,7 +15,8 @@
     "@strapi/plugin-users-permissions": "^4.5.3",
     "@strapi/strapi": "latest",
     "better-sqlite3": "latest",
-    "strapi-plugin-transformer": "^2.1.1"
+    "strapi-plugin-transformer": "^2.1.1",
+    "strapi-provider-upload-oss": "latest"
   },
   "author": {
     "name": "A Strapi developer"
