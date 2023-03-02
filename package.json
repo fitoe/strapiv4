@@ -13,7 +13,7 @@
     "@strapi/plugin-documentation": "^4.5.3",
     "@strapi/plugin-i18n": "^4.5.3",
     "@strapi/plugin-users-permissions": "^4.5.3",
-    "@strapi/strapi": "latest",
+    "@strapi/strapi": "4.7.0",
     "better-sqlite3": "latest",
     "strapi-plugin-transformer": "^2.1.1",
     "strapi-provider-upload-oss": "latest"
