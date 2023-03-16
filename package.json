@@ -1,7 +1,7 @@
 {
   "name": "strapi-v4-docker",
   "private": true,
-  "version": "4.7.1",
+  "version": "4.8.1",
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
@@ -10,14 +10,16 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/strapi": "4.7.1",
-    "@strapi/plugin-users-permissions": "4.7.1",
-    "@strapi/plugin-i18n": "4.7.1",
-    "@vscode/sqlite3": "5.0.8",
+    "@strapi/icons": "1.6.5",
+    "@strapi/strapi": "4.8.1",
+    "@strapi/plugin-users-permissions": "4.8.1",
+    "@strapi/plugin-i18n": "4.8.1",
+    "@strapi/plugin-sentry": "4.8.1",
+    "@vscode/sqlite3": "5.1.2",
     "better-sqlite3": "8.0.1",
     "strapi-plugin-transformer": "latest",
-    "@strapi/plugin-color-picker": "4.7.1",
-    "@strapi/plugin-documentation": "4.7.1",
+    "@strapi/plugin-color-picker": "4.8.1",
+    "@strapi/plugin-documentation": "4.8.1",
     "strapi-provider-upload-oss": "latest",
     "sqlite3": "5.1.2",
     "strapi-plugin-fuzzy-search": "^1.10.4"
