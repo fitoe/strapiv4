@@ -29,8 +29,8 @@ http://localhost:1337/admin/
 ```bash
 # build docker image: docker build . -t strapiv4-docker
 docker build . -t <dockername>
-# tag the image :docker tag strapiv4-docker imjzq/strapiv4-docker:oss
+# tag the image :docker tag strapiv4-docker imjzq/strapiv4-docker:oss-fuzzy
 docker tag <dockername> <hubuser>/<repo-name>[:<tag>]
-# push to dockerhub: docker push imjzq/strapiv4-docker:oss
+# push to dockerhub: docker push imjzq/strapiv4-docker:oss-fuzzy
 docker push <hubuser>/<repo-name>[:<tag>]
 ```
