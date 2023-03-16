@@ -27,10 +27,10 @@ http://localhost:1337/admin/
 
 ## Build your docker image (optional)
 ```bash
-# build docker image
+# build docker image: docker build . -t strapiv4-docker
 docker build . -t <dockername>
-# tag the image :docker tag nginx bill/nginx:4
+# tag the image :docker tag strapiv4-docker imjzq/strapiv4-docker:latest
 docker tag <dockername> <hubuser>/<repo-name>[:<tag>]
-# push to dockerhub
+# push to dockerhub: docker push imjzq/strapiv4-docker:latest
 docker push <hubuser>/<repo-name>[:<tag>]
 ```
