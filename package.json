@@ -1,34 +1,36 @@
 {
-  "name": "strapi-v4-docker",
+  "name": "my-project",
   "private": true,
-  "version": "4.8.1",
+  "version": "4.9.0",
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
+    "build": "NODE_ENV=production strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/icons": "1.6.5",
-    "@strapi/strapi": "4.8.1",
-    "@strapi/plugin-users-permissions": "4.8.1",
-    "@strapi/plugin-i18n": "4.8.1",
-    "@strapi/plugin-sentry": "4.8.1",
+    "sharp": "^0.31.3",
+    "@strapi/icons": "1.6.6",
+    "@strapi/plugin-color-picker": "4.9.0",
+    "@strapi/plugin-documentation": "4.9.0",
+    "@strapi/plugin-i18n": "4.9.0",
+    "@strapi/plugin-sentry": "4.9.0",
+    "@strapi/plugin-users-permissions": "4.9.0",
+    "@strapi/strapi": "4.9.0",
     "@vscode/sqlite3": "5.1.2",
     "better-sqlite3": "8.0.1",
-    "strapi-plugin-transformer": "latest",
-    "@strapi/plugin-color-picker": "4.8.1",
-    "@strapi/plugin-documentation": "4.8.1",
-    "strapi-provider-upload-oss": "latest",
+    "lodash": "4.17.21",
     "sqlite3": "5.1.2",
+    "strapi-plugin-transformer": "latest",
+    "strapi-provider-upload-oss": "latest",
     "strapi-plugin-fuzzy-search": "^1.10.4"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "a60db495-c118-4a36-b742-a0111ba3419b"
+    "uuid": "b18dc24c-08ff-4343-92a2-7f358d0dfc16"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
