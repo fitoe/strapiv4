@@ -24,8 +24,8 @@ module.exports = [
         directives: {
           "connect-src": ["'self'", "https:"],
           'script-src': ["'self'", "'unsafe-inline'", 'statics.feifantrade.com'],
-          'img-src': ["'self'", 'data:', 'blob:', `${env('BASE_URL')}`],
-          'media-src': ["'self'", 'data:', 'blob:', `${env('BASE_URL')}`],
+          'img-src': ["'self'", 'data:', 'blob:', process.env.BASE_URL],
+          'media-src': ["'self'", 'data:', 'blob:', process.env.BASE_URL],
           upgradeInsecureRequests: null,
         },
       }

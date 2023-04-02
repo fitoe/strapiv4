@@ -55,3 +55,7 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
+docker build . -t strapiv4-docker
+docker tag strapiv4-docker registry.cn-shanghai.aliyuncs.com/imjzq/strapi:4.9
+docker push registry.cn-shanghai.aliyuncs.com/imjzq/strapi:4.9
