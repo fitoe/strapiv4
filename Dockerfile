@@ -12,5 +12,6 @@ RUN npm config set sharp_libvips_binary_host "https://npmmirror.com/mirrors/shar
 RUN npm config set network-timeout 600000 -g && npm install
 WORKDIR /opt/app
 COPY ./ .
+RUN npm run build
 EXPOSE 1337
 ENTRYPOINT ["node", "server.js"]
